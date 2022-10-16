@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Inconsolata";
+    font-style: normal;
+    src: url("../assets/fonts/Inconsolata-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    src: url("../assets/fonts/SpaceMono-Regular.ttf");
+}
+
+body {
+    font-family: "Space Mono", sans-serif;
+    margin: 0;
+    padding-inline: 5%;
+    padding-block: 2.5%;
+    color: #333333;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Inconsolata", sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin-block: 72px;
+    margin-inline: auto;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+.btn-primary {
+    font-size: 1em;
+    display: block;
+    color: white;
+    width: fit-content;
+    background-color: #333333;
+    padding-inline: 48px;
+    padding-block: 32px;
+
+    /* when btn is a link */
+    text-decoration: none;
+}
+
+footer {
+
+    width: 100%;
+    font-family: Montserrat;
+    color: #BDBDBD;
+    text-align: center;
+}
